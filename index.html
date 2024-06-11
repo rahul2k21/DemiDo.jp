@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEMi DO</title>
+  <link rel="stylesheet" href="style.css" />
+
+
+  <!-- crousal cdn  -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+  <!--animation cdn  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+  <!-- <div id="preloader">
+      <img id="loadingImage" src="image/loading_txt.png" alt="Loading...">
+    </div> -->
+
+  <div id="preloader">
+    <img class="preload-image first-img" src="image/loading_txt.png" alt="Loading...">
+    <img class="preload-image secound-img " src="image/00024.png" alt="Loading...">
+    <!-- <img class="preload-image" src="image/features_lead.png" alt="Loading..."> -->
+  </div>
+
+  <!-- onclick banner  -->
+
+
+  <div id="show-bar">
+    <div class="show-bar-wrap">
+
+      <div class="show-card1">
+        <div class="autoplay">
+          <div class="showBanner">
+            <img src="Image/Banner/banner1.jpg" alt="">
+          </div>
+          <div class="showBanner">
+            <img src="Image/Banner/banner2.jpg" alt="">
+          </div>
+          <div class="showBanner">
+            <img src="Image/Banner/banner3.jpg" alt="">
+          </div>
+          <div class="showBanner">
+            <img src="Image/Banner/banner4.jpg" alt="">
+          </div>
+          <div class="showBanner">
+            <img src="Image/Banner/banner5.jpg" alt="">
+          </div>
+          <div class="showBanner">
+            <img src="Image/Banner/banner6.jpg" alt="">
+          </div>
+
+        </div>
+
+      </div>
+      <div class="show-card2">
+        <div class="show-angle-card1">
+          <span><i class="fa-solid fa-angle-right"></i></span>
+        </div>
+
+        <div class="show-angle-card2">
+          <img class="angle-text" src="image/Banner/navi_txt_lead.png" alt="">
+          <span>HOME</span>
+          <span>TOPICS</span>
+          <span>ABOUT</span>
+          <span>PRODUCTS</span>
+          <span>for SALON</span>
+        </div>
+
+      </div>
+      <div class="show-card3">
+        <div class="navi_bnarImg">
+          <img src="image/Banner/navi_bnr.jpg" alt="">
+        </div>
+
+        <div class="navi-heading">
+          <div class="navi-icon ">
+            <span>おれのこと蹴るだけ </span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+
+          <div class="navi-icon">
+            <span>旅はまだ途中だぞ</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="insta-icon">
+            <img class="logo-insta" src="image/Banner/icon_instagram.png" alt="">
+            <img class="text-insta" src="image/Banner/footer_txt_instagram.png" alt="">
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="topic1">
+    <div class="header">
+      <span id="menuBtnShow" onclick="HideShow1()">MENU</span>
+
+      <img src="image/00024.png" alt="">
+
+    </div>
+    <div class="autoplay">
+      <div class="card2">
+        <img src="Image/mv_new_img01_pc.jpg" alt="">
+      </div>
+      <div class="card2">
+        <img src="Image/mv_new_img03_pc.jpg" alt="">
+      </div>
+
+
+
+    </div>
+    <div class="footer-bottom1">
+      <div class="footer-heading">
+        <span class="footer-txt1" data-aos="fade-up">艾诶开伊 艾艾 西吉艾艾伊娜伊</span>
+        <span class="footer-txt2">在最高法院的案件听证会上玩笑地拒绝向总检察长图莎尔·梅塔提供在他下面的实习机会时</span>
+      </div>
+
+    </div>
+    <div class="footer-bottom-btn">
+      <button data-aos="fade-right" onclick="newTabOpen()"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+  </div>
+
+  <div class="banner2-section">
+    <div class="banner-anim">
+      <img src="/image/00073.jpg" alt="" id="imageToHide" class="image-wrap" />
+    </div>
+
+    <div class="container">
+
+      <img src="/image/concept_lead.svg" alt="" class="text-wrap" />
+      <div class="text-wrap2">
+        <div class="text-card1">
+          <span>あらゆる年齢の人に、10代のころのような美しい髪を。</span>
+          <span>日本人の地肌と毛髪を</span>
+          <span>40年以上にわたって研究し続けてきたデミから、</span>
+          <span>新しいブランドが誕生しました。</span>
+          <span>その名は、DEMI DO。</span>
+          <span>めざしたのは、"毎日、手軽に、確実な"スカルプケアです。</span>
+          <span>残念ながら、髪を一瞬で美しくする魔法は、</span>
+          <span>まだこの世にはありません。</span>
+          <span>けれど、最適で続けやすい方法さえあれば、</span>
+          <span>求める変化は多くの人のものとなる。</span>
+
+          <span> DEMI DOの1滴には、私たちがこれまでに</span>
+          <span>取り組んできた成果が凝縮されています。</span>
+          <span>一生、自分の髪と生きていく。</span>
+          <span>この髪と、ずっとずっと、楽しく生きていく。</span>
+          <span>その思いを、支えるスカルプケアであるために。</span>
+          <span>大人の髪を、どこよりもいたわるスカルプケアであるために。</span>
+        </div>
+        <div class="text-card2">
+          <img src="image/concept_img01.png" alt="" />
+        </div>
+      </div>
+      <div class="text-wrap3">
+        <div class="text-card-wrap2">
+          <img src="image/search_img02.png" alt="" data-aos="fade-up-left" />
+        </div>
+        <div class="text-card-wrap2">
+          <span class="text-smart">-皆 さんは よういます.</span>
+          <span class="text-smart">SMART SCALP CARE</span>
+          <div class="text-card-size">
+            <span class="menu-sze2">Demi</span>
+            <span class="menu-sze3">D</span>
+            <span class="menu-sze4">O</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="video-wrap">
+    <video autoplay loop muted plays-inline class="black-media">
+      <source src="image/DEMI DO.mp4.mp4" type="video/mp4" />
+    </video>
+    <h1 class="video-heading" data-aos="slide-up">CONCEPT_MOVIE</h1>
+    <button class="play-btn">
+      PLAY <span class="play-btn-span"><i class="fa-solid fa-play"></i></span>
+    </button>
+  </div>
+
+  <div class="topic">
+    <div class="container">
+      <img src="image/topics_ttl.png" alt="" class="topic-crousal">
+
+    </div>
+    <div class="container2">
+
+      <div class="multiple-items">
+        <div class="cardItem">
+          <div class="card-wrap">
+            <span class="card-wrap-head"> { NEWS } </span>
+          </div>
+          <span class="card-wrap-date">2024.4.4</span>
+          <p>
+            DEMI DO MEN の1滴には、私たちがこれまでに SCALP FORAM BLACK SODA
+            取り組んできた成果が凝縮されています
+            40年以上にわたって研究し続けてきたデミから、
+          </p>
+        </div>
+        <div class="cardItem">
+          <div class="card-wrap">
+            <span class="card-wrap-head"> { NEWS } </span>
+          </div>
+          <span class="card-wrap-date">2024.4.3</span>
+          <p>取り組んできた成果が凝縮されています</p>
+        </div>
+        <div class="cardItem">
+          <div class="card-wrap">
+            <span class="card-wrap-head"> { NEWS } </span>
+          </div>
+          <span class="card-wrap-date">2023.9.6</span>
+          <p>
+            DEMI DO MEN の1滴には、私たちがこれまでに SCALP FORAM BLACK SODA
+            取り組んできた成果が凝縮されています
+            40年以上にわたって研究し続けてきたデミから、
+          </p>
+        </div>
+        <div class="cardItem">
+          <div class="card-wrap">
+            <img src="/image/00024.png" alt="" />
+          </div>
+          <span class="card-wrap-date">2023.9.4</span>
+          <p>
+            DEMI DOの1滴には、私たちがこれまでに SCALP FORAM BLACK SODA
+            取り組んできた成果が凝縮されています
+            40年以上にわたって研究し続けてきたデミから、
+          </p>
+        </div>
+        <div class="cardItem">
+          <div class="card-wrap">
+            <img src="/image/bnr_hadagami_img.png" alt="" />
+          </div>
+          <span class="card-wrap-date">2023.5.17</span>
+          <p>
+            DEMI DO MEN の1滴には、私たちがこれまでに SCALP FORAM BLACK SODA
+            取り組んできた成果が凝縮されています
+            40年以上にわたって研究し続けてきたデミから、
+          </p>
+        </div>
+        <div class="cardItem">
+          <div class="card-wrap">
+            <span class="card-wrap-head"> { NEWS } </span>
+          </div>
+          <span class="card-wrap-date">2024.4.4</span>
+          <p>
+            DEMI DO MEN の1滴には、私たちがこれまでに SCALP FORAM BLACK SODA
+            取り組んできた成果が凝縮されています
+            40年以上にわたって研究し続けてきたデミから、
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="topic-footer">
+        <img src="/image/bnr_men_img.jpg" alt="" id="clickableImage1" />
+        <img src="/image/bnr_demilabo_img.png" alt="" id="clickableImage2" />
+      </div>
+      <div class="topic-footer1">
+        <img src="/image/bnr_hadagami_img.png" alt="" id="clickableImage3" />
+      </div>
+    </div>
+
+  </div>
+  <div class="smart-scale">
+    <div class="marque-direction">
+      <div class="logo is-animetion">
+
+        <span>𝐒</span>
+        <span>𝐌</span>
+        <span>𝐀</span>
+        <span>𝐑</span>
+        <span>𝐓</span>
+        <span>_</span>
+        <span>𝐒</span>
+        <span>𝐂</span>
+        <span>𝐀</span>
+        <span>𝐋</span>
+        <span>𝐏</span>
+        <span>_</span>
+        <span>𝐂</span>
+        <span>𝐀</span>
+        <span>𝐑</span>
+        <span>𝐄</span>
+
+
+      </div>
+    </div>
+
+    <div class="image-container">
+      <div class="container2-smartscale ">
+        <div class="image-1 ">
+          <img class="img" src="Image/cover_img01.png" alt="Image 1">
+        </div>
+        <div class="image-2 ">
+          <img class="img" src="Image/cover_img01.png" alt="Image 2">
+        </div>
+        <div class="image-3 ">
+          <img class="img" src="Image/cover_img01.png" alt="Image 3">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="about">
+    <div class="container">
+      <div class="topic-wrap">
+        <h1>_ABOUT</h1>
+      </div>
+      <div class="topic-wrap2">
+        <div class="topic-wrap2-img">
+          <img src="/image/features_lead.png" alt="" />
+        </div>
+        <div class="topic-wrap2-span">
+          <span>2つのハイブリッド成分による独自処方から、美容ギアの開発まで。総合的なアプローチによって、地肌から髪本来の美しさを磨き上げるブランド。それがDEMI
+            DOです。今も、これからも、あなたが自分らしくいるために。“地肌投資”という選択を。、美容ギアの開発まで。総合的なアプローチによって、美容ギアの開発まで。総合的なアプローチによって</span>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <div class="about-card-sidebar">
+          <img src="image/features_point01_ttl_pc.png" alt="" />
+        </div>
+        <div class="about-card-div">
+          <div class="root-card target-element1 ">
+            <span class="root-span1">{ROOT ACTIVE}</span>
+            <span class="root-span2">ルートアクティブ</span>
+            <img src="/image/point_card01_img.png" alt="" />
+            <span class="root-span3">国内有数の研究機関との共同研究で発⾒された、
+              植物オイルと植物エキスのハイブリッド成分</span>
+            <span class="root-span4">※1:エゴマ油 ※2:アスパラサスリネアリスエキス
+              ※すべて保湿成分。医薬部外品に配合。
+              ※イラストはイメージです。</span>
+          </div>
+          <div class="root-card target-element2">
+            <span class="root-span1">{KEEP ACTIVE}</span>
+            <span class="root-span2">ルートアクティブ</span>
+            <img src="/image/point_card02_img.png" alt="" />
+            <span class="root-span3">国内有数の研究機関との共同研究で発⾒された、
+              植物オイルと植物エキスのハイブリッド成分</span>
+            <span class="root-span4">※1:エゴマ油 ※2:アスパラサスリネアリスエキス
+              ※すべて保湿成分。医薬部外品に配合。
+              ※イラストはイメージです。</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="about-card-div">
+          <div class="root-card target-element3">
+            <span class="root-span1">{INNER CARE}</span>
+            <span class="root-span2">ルートアクティブ</span>
+            <img src="/image/point_card03_img.png" alt="" />
+            <span class="root-span3">国内有数の研究機関との共同研究で発⾒された、
+              植物オイルと植物エキスのハイブリッド成分</span>
+            <span class="root-span4">※1:エゴマ油 ※2:アスパラサスリネアリスエキス
+              ※すべて保湿成分。医薬部外品に配合。
+              ※イラストはイメージです。</span>
+          </div>
+          <div class="root-card target-element4">
+            <span class="root-span1">{GEAR CARE}</span>
+            <span class="root-span2">ルートアクティブ</span>
+            <img src="/image/point_card04_img.png" alt="" />
+            <span class="root-span3">国内有数の研究機関との共同研究で発⾒された、
+              植物オイルと植物エキスのハイブリッド成分</span>
+            <span class="root-span4">※1:エゴマ油 ※2:アスパラサスリネアリスエキス
+              ※すべて保湿成分。医薬部外品に配合。
+              ※イラストはイメージです。</span>
+          </div>
+        </div>
+        <div class="about-card-sidebar">
+          <img src="image/features_point02_ttl_pc.png" alt="" />
+        </div>
+      </div>
+
+      <div class="brand-consultant-section">
+        <div class="brand-consultant">
+          <div class="brand1">
+            <img src="/image/features_consultant_lead_pc.png" alt="" />
+          </div>
+          <div class="brand2">
+            <img src="image/features_consultant_ttl_pc.png" alt="" />
+            <div class="brand2-wrap">
+              <div class="brnad2-profile">
+                <img src="image/features_consultant_img.jpg" alt="" />
+              </div>
+              <div class="brnad2-span">
+                <span>日比野佐和子（ひびの・さわこ）</span>
+                <span>医師・医学博士/内科医、皮膚科医、眼科医、日本抗加齢医学会専門医/日本再生医療学会認定医/医療法人社団康梓会
+                  Y'sサイエンスクリニック広尾 統括院長/SAWAKO CLINIC×YS
+                  統括院長/日本化粧医療学会 理事長/大阪大学医学系研究科
+                  未来医療学寄附講座 特任准教授</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="abt-btn" id="abtBtn">
+        ABOUT
+        <span class="right-arrow"><i class="fa-solid fa-angle-right"></i></span>
+      </p>
+    </div>
+
+  </div>
+
+
+  <section>
+    <div class="cards">
+      <div class="card card-1">
+        <img src="Image/products_item01_img_pc.jpg" alt="Image 1">
+        <div class="product-overwrap1">
+          <img src="image/products_item01_ttl.png" alt="">
+          <img src="image/products_item01_txt.png" alt="">
+        </div>
+        <div class="product-overwrap2">
+          <img src="image/products_item01_name.png" alt="">
+
+
+          <span>振り向くな、振り向くな、 </span>
+          <span>後ろには夢がない</span>
+
+          <span>人生に失敗がないと、人生を失敗する </span>
+          <span>井の中の蛙大海を知らず敗がないと</span>
+          <span>年を一年で習得する努力を怠ってはならな</span>
+        </div>
+        <div class="product-overwrap-playbtn">
+          <button><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </div>
+
+
+
+
+      <div class="card card-2">
+        <img src="Image/products_item02_img_pc.jpg" alt="Image 2">
+        <div class="product-overwrap1">
+          <img src="image/products_item02_ttl.png" alt="">
+          <img src="image/products_item01_txt.png" alt="">
+        </div>
+        <div class="product-overwrap2">
+          <img src="image/products_item02_name.png" alt="">
+          <span>振り向くな、振り向くな、 </span>
+          <span>後ろには夢がない</span>
+
+          <span>人生に失敗がないと、人生を失敗する </span>
+          <span>井の中の蛙大海を知らず敗がないと</span>
+          <span>年を一年で習得する努力を怠ってはならな</span>
+        </div>
+        <div class="product-overwrap-playbtn">
+          <button><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </div>
+
+      <div class="card card-3">
+        <img src="Image/products_item03_img_pc.jpg" alt="Image 3">
+        <div class="product-overwrap1">
+          <img src="image/products_item03_ttl.png" alt="">
+          <img src="image/products_item01_txt.png" alt="">
+        </div>
+        <div class="product-overwrap2">
+          <img src="image/products_item03_name.png" alt="">
+
+
+          <span>振り向くな、振り向くな、 </span>
+          <span>後ろには夢がない</span>
+
+          <span>人生に失敗がないと、人生を失敗する </span>
+          <span>井の中の蛙大海を知らず敗がないと</span>
+          <span>年を一年で習得する努力を怠ってはならな</span>
+        </div>
+        <div class="product-overwrap-playbtn">
+          <button><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </div>
+
+
+      <div class="card card-4">
+        <img src="Image/products_item04_img_pc.jpg" alt="Image 4">
+        <div class="product-overwrap1">
+          <img src="image/products_item04_ttl.png" alt="">
+          <img src="image/products_item01_txt.png" alt="">
+        </div>
+        <div class="product-overwrap2">
+          <img src="image/products_item04_name.png" alt="">
+
+
+          <span>振り向くな、振り向くな、 </span>
+          <span>後ろには夢がない</span>
+
+          <span>人生に失敗がないと、人生を失敗する </span>
+          <span>井の中の蛙大海を知らず敗がないと</span>
+          <span>年を一年で習得する努力を怠ってはならな</span>
+        </div>
+
+        <div class="product-overwrap-playbtn">
+          <button><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </div>
+
+
+
+      <div class="card card-5">
+        <img src="Image/products_item05_img_pc.jpg" alt="Image 5">
+        <div class="product-overwrap1">
+          <img src="image/products_item05_ttl.png" alt="">
+          <img src="image/products_item01_txt.png" alt="">
+        </div>
+        <div class="product-overwrap2">
+          <img src="image/products_item05_name.png" alt="">
+
+
+          <span>振り向くな、振り向くな、 </span>
+          <span>後ろには夢がない</span>
+
+          <span>人生に失敗がないと、人生を失敗する </span>
+          <span>井の中の蛙大海を知らず敗がないと</span>
+          <span>年を一年で習得する努力を怠ってはならな</span>
+        </div>
+        <div class="product-overwrap-playbtn">
+          <button><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </div>
+
+
+      <div class="card card-6">
+        <img src="Image/products_item06_img_pc.jpg" alt="Image 6">
+        <div class="product-overwrap1">
+          <img src="image/products_item06_ttl.png" alt="">
+          <img src="image/products_item01_txt.png" alt="">
+        </div>
+        <div class="product-overwrap2">
+          <img src="image/products_item06_name.png" alt="">
+          <span>振り向くな、振り向くな、 </span>
+          <span>後ろには夢がない</span>
+
+          <span>人生に失敗がないと、人生を失敗する </span>
+          <span>井の中の蛙大海を知らず敗がないと</span>
+          <span>年を一年で習得する努力を怠ってはならな</span>
+        </div>
+        <div class="product-overwrap-playbtn">
+          <button><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </div>
+
+
+
+      <div class="card card-7">
+        <img src="Image/products_item07_img_pc.jpg" alt="Image 7">
+        <div class="product-overwrap1">
+          <img src="image/products_item07_ttl.png" alt="">
+          <img src="image/products_item01_txt.png" alt="">
+        </div>
+        <div class="product-overwrap2">
+          <img src="image/products_item07_name.png" alt="">
+
+
+          <span>振り向くな、振り向くな、 </span>
+          <span>後ろには夢がない</span>
+
+          <span>人生に失敗がないと、人生を失敗する </span>
+          <span>井の中の蛙大海を知らず敗がないと</span>
+          <span>年を一年で習得する努力を怠ってはならな</span>
+        </div>
+        <div class="product-overwrap-playbtn">
+          <button><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+
+      </div>
+
+
+
+
+
+      <!-- <div class="card card-8">
+          <img src="Image/products_item08_img_pc.jpg" alt="Image 8">
+          <div class="product-overwrap1">
+            <img  src="image/products_item05_ttl.png" alt="">
+            <img src="image/products_item01_txt.png" alt="">
+          </div>
+          <div class="product-overwrap2">
+            <img  src="image/products_item05_name.png" alt="">
+            <span>振り向くな、振り向くな、 </span>
+            <span>後ろには夢がない</span>         
+            <span>人生に失敗がないと、人生を失敗する </span>
+            <span>井の中の蛙大海を知らず敗がないと</span>
+            <span>年を一年で習得する努力を怠ってはならな</span>
+          </div>
+
+          <div class="product-overwrap-playbtn">
+            <button><i class="fa-solid fa-angle-right"></i></button>
+          </div>
+        </div>   -->
+
+
+    </div>
+  </section>
+
+  <div class="slider1">
+    <div class="slide-track1">
+
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img12.png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01.png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img1.png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 (6).png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 (11).png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 (10).png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 (9).png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 (8).png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 13.png" alt="">
+
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 (2).png" alt="">
+      </div>
+
+
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img12.png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01.png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img1.png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 (6).png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 (11).png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 (10).png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 (9).png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 (8).png" alt="">
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 13.png" alt="">
+
+      </div>
+      <div class="slide1">
+        <img src="image/Rigght_Slider/instagram_img01 (2).png" alt="">
+      </div>
+
+
+    </div>
+  </div>
+  <div class="social-slider">
+    <div class="social-slider-container">
+      <div class="instagram-social1">
+        <img src="image/instagram_ttl.png" alt="">
+        <span>いちばん過去にこだわってんのはあんただろ</span>
+      </div>
+      <div class="instagram-social2">
+        <img src="image/instagram_btn_txt.png" alt="">
+        <button><i class="fa-solid fa-angle-right"></i></i></button>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="slider2">
+    <div class="slide-track2">
+
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img12.png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01.png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img1.png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 (6).png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 (11).png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 (10).png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 (9).png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 (8).png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 13.png" alt="">
+
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 (2).png" alt="">
+      </div>
+
+
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img12.png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01.png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img1.png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 (6).png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 (11).png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 (10).png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 (9).png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 (8).png" alt="">
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 13.png" alt="">
+
+      </div>
+      <div class="slide2">
+        <img src="image/Rigght_Slider/instagram_img01 (2).png" alt="">
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <div class="salon-section">
+
+    <!-- <img src="image/search_img02.png" alt="" class="searchImg03"> -->
+    <div class="salon-section-card" id="salonCard">
+      <img src="image/search_img02.png" alt="" class="searchImg01">
+      <img src="image/search_img01.png" alt="" class="searchImg02">
+      <img src="image/search_img03 (1).png" alt="" class="searchImg03">
+      <div class="salon-div1">
+        <div class="salon-search1">
+          <div class="salon-first1">
+            <span>SALON</span>
+          </div>
+          <div class="salon-first2">
+            <span>DEMI DO ちばん過去にこだ</span>
+
+          </div>
+
+        </div>
+        <div class="salon-search2">
+          <span>_SEARCH</span>
+        </div>
+      </div>
+      <div class="salon-div2">
+
+        <div class="salon-font">
+          <span>おれのこと蹴るだけ蹴っても痛えのはお前だおれても痛えのはお前だ</span>
+          <span>旅はまだ途中だぞ！</span>
+        </div>
+        <div class="salon-button">
+          <button><i class="fa-solid fa-angle-right"></i></button>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="smart-footer">
+
+    <div class="smart-footer-card">
+            <div class="smart-footer-col1">
+              <img src="image/logo_full.png" alt="">
+            </div>
+           <div class="smart-footer-col2">
+               <div class="smart-halftext1">
+                      <span>HOME</span>
+                      <span>TOPICS</span>
+                      <span>ABOUT</span>
+                      <span>PRODUCTS</span>
+                      <span>for SALON</span>
+        </div>
+        <div class="smart-halftext2">
+          <div class="halftext-first">
+            <span>SALON_SEARCH</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+          <div class="halftext-secound">
+            <span>ONLINE_SHOP</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+
+
+          </div>
+          <div class="halftext-third">
+            <span>INSTAGRAM</i></span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="smart-footer-col3">
+        <span class="demi-text">DEMI</span>
+        <div class="text-footerfirst">
+          <span>人生を失敗する</span>
+          <i class="fa-solid fa-arrow-right-long"></i>
+
+        </div>
+
+
+
+        <div class="text-footersecound">
+          <span>る生に失敗</span>
+          <i class="fa-solid fa-arrow-right-long"></i>
+
+        </div>
+
+        <div class="text-footerthird">
+          <span>いちばん過去にこだわ</span>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+
+        <div class="text-footerfourt">
+          <span>@DEMI COSMETIC.All Right Reserved.</span>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Add Slick JS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+  <!-- Animatio script  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script> AOS.init(); </script>
+
+
+
+  <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/font-awesome-min.js"></script>
+
+
+</body>
+
+</html>
