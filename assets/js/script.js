@@ -144,7 +144,7 @@ window.addEventListener('scroll', function() {
 
   console.log("Scroll Position:", scrollPosition);
 
-  var threshold = 7500; 
+  var threshold = 7480; 
 
   if (scrollPosition > threshold && scrollPosition > lastScrollPosition) {
     targetElement.classList.add('scrolled1');
@@ -185,7 +185,7 @@ window.addEventListener('scroll', function() {
 
   console.log("Scroll Position:", scrollPosition);
 
-  var threshold = 7500;
+  var threshold = 7480;
 
   if (scrollPosition > threshold && scrollPosition > lastScrollPosition2) {
     targetElement.classList.add('scrolled2');
@@ -287,7 +287,7 @@ window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
 
     console.log("hello",scrollPosition)
-    var thresholdA =6670;
+    var thresholdA =6660;
     if (scrollPosition > thresholdA) {
       targetElement.classList.add('scrolled1A');
     } else {
@@ -301,7 +301,7 @@ window.addEventListener('scroll', function() {
 
     console.log("hello",scrollPosition)
 
-    var thresholdB = 6670;
+    var thresholdB = 6660;
 
     if (scrollPosition > thresholdB) {
       targetElement.classList.add('scrolled3A');

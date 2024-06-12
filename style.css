@@ -1370,10 +1370,10 @@ transform: scale(0.9);
   top: 140px;
 }
 
-.card-8 {
+/* .card-8 { */
   /* right: 245px; */
   /* top: 170px; */
-}
+/* } */
 
 section {
   /* height: 480vh; */
@@ -1738,6 +1738,7 @@ background-color: #f5dcbe;
   height: 410px;
   width: 94%;
   background-color: black;
+  background-color: blue;
   overflow: hidden;
   border-radius: 20px;
   position: relative;
@@ -2072,3 +2073,23 @@ justify-content: center;
       transform: translateX(8px);
   }
 }
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design    */
+
+/* @media screen and (max-width:1024) {
+
+  .salon-section-card{
+    background-color: aquamarine ;
+  }
+  
+
+} */
