@@ -538,7 +538,7 @@ transform-origin: left center;
   position: absolute;
   bottom: 10%;
   right: 6%;
-  padding: 30px 20px;
+  padding: 32px 35px;
   font-size: 30px;
   /* font-weight: bold; */
   border-radius: 80px;
@@ -551,9 +551,9 @@ transform-origin: left center;
 .play-btn-span {
   background-color: white;
   color: black;
-  padding: 22px 30px;
+  padding: 20px 30px;
   border-radius: 50%;
-  margin-left: 30px;
+  margin-left: 38px;
 }
 
 .play-btn-span:hover i {

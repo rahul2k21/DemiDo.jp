@@ -639,3 +639,8 @@ document.getElementById('abtBtn').addEventListener('click', function() {
   window.open('https://demido.jp/about/', '_blank');
 });
 
+
+document.getElementById('videoPlaybtn').addEventListener('click', function() {
+  window.open('https://www.youtube.com/watch?v=XDVlUHL6pB4&list=TLGGiaODbZLO-pUxMjA2MjAyNA/f', '_blank');
+});
+
