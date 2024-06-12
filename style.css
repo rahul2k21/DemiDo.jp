@@ -1320,6 +1320,7 @@ transform: scale(0.9);
   height: 100%;
   width: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .card-1 {
@@ -1733,6 +1734,7 @@ background-color: #f5dcbe;
 
 
 .salon-section-card{
+  cursor: pointer;
   height: 410px;
   width: 94%;
   background-color: black;
