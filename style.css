@@ -278,7 +278,7 @@ transform-origin: left center;
 }
 .header img {
   position: relative;
-  height: 410px;
+  height: 420px;
   width: 400px;
   object-fit: cover;
   bottom: 90px;
@@ -287,11 +287,13 @@ transform-origin: left center;
 .header span {
   height: fit-content;
   /* padding: 15px 11px; */
-  font-family: "Rubik", sans-serif;
-  font-size: 20px;
+ font-family: "Poppins", sans-serif;
+  font-size: 22px;
   letter-spacing: 1px;
   cursor: pointer;
-  margin: 75px 75px;
+  margin: 72px 70px;
+  letter-spacing: 1px;
+  
 }
 
 .footer-bottom1 {
@@ -324,24 +326,29 @@ transform-origin: left center;
   transition: transform 0.3s ease;
 }
 
+
 .footer-heading {
   display: flex;
   justify-content: center;
 }
 
 .footer-txt1 {
-  font-size: 5vw;
-  letter-spacing: 4px;
+
+    height: 100%;
+    width: 86%;
+    object-fit: contain;
 }
 .footer-txt2 {
   font-size: 1vw;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .footer-heading {
   display: flex;
   flex-direction: column;
 }
+
 
 .card2 img {
   width: 100%;
@@ -415,7 +422,7 @@ transform-origin: left center;
   align-items: center;
 }
 .container {
-  width: 80%;
+  width: 78%;
   /* border: 2px solid black; */
 }
 .container2 {
@@ -431,8 +438,11 @@ transform-origin: left center;
 }
 
 .text-wrap {
-  height: 255px;
-  width: 510px;
+  /* height: 255px; */
+  object-fit: contain;
+  color: black;
+
+  width: 555px;
 }
 .text-wrap2 {
   padding-top: 100px;
@@ -470,14 +480,23 @@ transform-origin: left center;
   display: flex;
   flex-flow: column;
   line-height: 50px;
+  font-weight: 500;
 }
 
-.text-card-wrap2 img {
+.text-card-wrap1 img {
   height:600px;
   width:400px;
   object-fit: cover;
   position: absolute;
   left: -170px;
+ 
+}
+.text-card-wrap2 img {
+  height:600px;
+  width:400px;
+  object-fit: contain;
+  /* position: absolute; */
+  /* left: -170px; */
  
 }
 
@@ -524,22 +543,24 @@ transform-origin: left center;
 
 .video-heading {
   position: absolute;
-  top: -3%;
+  top: -2.5%;
   font-weight: 100;
   /* left: 10%; */
   /* transform: translate(-50%, -50%); */
   /* color: rgb(3, 3, 3); */
   color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
   z-index: 1;
-  font-size: 8vw;
+  font-size: 7.5vw;
+  letter-spacing: 3px;
 }
 
 .play-btn {
   position: absolute;
   bottom: 10%;
   right: 6%;
-  padding: 32px 35px;
-  font-size: 30px;
+  padding: 32px 21px;
+  font-size: 28px;
   /* font-weight: bold; */
   border-radius: 80px;
   color: white;
@@ -640,10 +661,10 @@ transform: scale(0.9);
   border-radius: 20px;
 
   width: 48%;
-  height: fit-content;
+  height: 135px;
 }
 .topic-footer img {
-  height: 150px;
+  height: 135px;
   width: 48%;
   border-radius: 10px;
 }
@@ -697,17 +718,32 @@ transform: scale(0.9);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 30px 0px;
 }
 .topic-wrap2-img img {
   object-fit: contain;
   width: 350px;
 }
-.topic-wrap2-span span {
-  font-size: 10px;
-}
+
 .topic-wrap2-span {
-  width: 40%;
-  line-height: 30px;
+  width: 45%;
+  padding: 2px;
+  /* line-height: 16px;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1px; */
+}
+
+.topic-wrap2-span span{
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+.topic-wrap-about span{
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+
 }
 
 .about-card {
@@ -719,6 +755,7 @@ transform: scale(0.9);
 }
 .about-card-sidebar img {
   height: 70%;
+  object-fit: contain;
   width: 100%;
 }
 .about-card-div {
@@ -750,15 +787,34 @@ transform: scale(0.9);
 }
 
 .root-span3 {
-  font-size: 15px;
+  font-size: 14px;
   padding: 10px 30px;
   line-height: 30px;
 }
 .root-span4 {
-  font-size: 10px;
-  padding: 10px 50px;
+  font-size: 9px;
+  padding: 16px 63px;
   line-height: 20px;
+  font-weight: 500;
   padding-bottom: 45px;
+  color: rgba(224, 184, 26, 0.975);
+}
+.root-span41{
+  font-size: 12px;
+  padding: 16px 97px;
+  line-height: 20px;
+  font-weight: 500;
+  padding-bottom: 45px;
+  color: black;
+}
+
+.root-span42{
+  font-size: 14px;
+  padding: 17px 66px;
+  line-height: 20px;
+  font-weight: 500;
+  padding-bottom: 45px;
+  color: black;
 }
 .root-span1 {
   font-size: 25px;
@@ -778,9 +834,9 @@ transform: scale(0.9);
 .brand-consultant {
   /* height: 60vh; */
   padding: 30px;
-  width: 90%;
+  width: 86%;
   display: flex;
-  border-radius: 20px;
+  border-radius: 17px;
   border: 1px solid black;
   justify-content: space-between;
   border: none;
@@ -796,13 +852,15 @@ transform: scale(0.9);
 }
 .brand1 img {
   object-fit: contain;
+  margin-right: 81px;
 }
 
 .brand2 {
   padding: 10px;
   /* height: 60vh; */
   /* border: 1px solid black; */
-  width: 60%;
+  width: 78%;
+  margin-right: 30px;
 }
 .brand2 img {
   object-fit: contain;
@@ -825,8 +883,10 @@ transform: scale(0.9);
   flex-flow: column;
 }
 .brnad2-span span {
-  line-height: 30px;
+  line-height: 23px;
   font-size: 12px;
+  padding-bottom: 5px;
+  font-weight: 500;
 }
 
 .brand2-wrap {
@@ -837,7 +897,7 @@ transform: scale(0.9);
   float: right;
   bottom: 40px;
   right: 46px;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-family: sans-serif;
 }
 .right-arrow {
@@ -1415,9 +1475,11 @@ section {
 
 .product-overwrap1 img:nth-child(1) {
  width: 100%;
- object-fit: cover;
+ object-fit: contain;
  height: 25px;
 }
+
+
 
 .product-overwrap1 img:nth-child(2) {
   width:100%; 
@@ -1470,6 +1532,8 @@ section {
   font-size: 30px;
   color: white;
 }
+
+
 
 
 
@@ -1621,12 +1685,14 @@ background-color: #f5dcbe;
 }
 
 .instagram-social1 span{
-  letter-spacing: -3px;
-  font-weight: bold;
-  font-size: 13px;
+  letter-spacing: -1px;
+  /* font-weight: bold; */
+  font-size: 12px;
+  margin-left: 13px;
+
 }
 .instagram-social1 img{
-  height:25px;
+  height:28px;
   width: 220px;
   margin-right: 10px;
   object-fit: contain;
@@ -1735,7 +1801,7 @@ background-color: #f5dcbe;
 
 .salon-section-card{
   cursor: pointer;
-  height: 410px;
+  height: 420px;
   width: 94%;
   background-color: black;
   overflow: hidden;
@@ -1785,6 +1851,14 @@ justify-content: center;
   width: 100%;
   /* padding-top: 20px; */
 }
+.salon-textImg{
+  position: absolute;
+  object-fit: contain;
+  right: 4%;
+  height: 23%;
+  width: 12%;
+}
+
 
 .salon-first1
 {
@@ -1795,8 +1869,10 @@ justify-content: center;
   /* border: 1px solid black; */
 }
 .salon-first1 span{
-  font-size: 7vw;
+  font-size: 7.5vw;
+  font-family: "Roboto", sans-serif;
   color: #fff;
+  
 }
 .salon-first2
 {
@@ -1806,13 +1882,17 @@ justify-content: center;
 }
 .salon-search2 span{
   color: white;
-  font-size: 7vw;
+  font-size: 7.5vw;
   margin-left: 175px;
+  font-family: "Roboto", sans-serif;
+  line-height: 60px;
 
+  
 }
 .salon-first2 span{
   color: #fff;
   margin-left: 30px;
+  
 }
 
 
